@@ -7,7 +7,7 @@ class TurmaPresencial extends Turma {
   }
 
   aprovar() {
-    this.aprovado = this.nota >= 6 && this.frequencia >= 75; // Supondo que 7 e 75 seje necessário para aprovação
+    this.aprovado = this.nota >= 6 && this.frequencia >= 75; // Supondo que 6 e 75 seje necessário para aprovação
     return this.aprovado;
   }
 
